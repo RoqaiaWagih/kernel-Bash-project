@@ -25,3 +25,29 @@ a. Specify the path to the Wireshark pcap file.
 b. Analyze the data to identify patterns.
 c. Extract information like total packets, protocols, etc.
 d. Generate a summary report.
+
+## 4. output
+
+```
+----- Network Traffic Analysis Report -----
+1. Total Packets: 790
+2. Protocols:
+   - HTTP: 14 packets
+   - HTTPS/TLS: 151 packets
+
+3. Top 5 Source IP Addresses:
+    364 192.168.150.130
+     83 199.232.82.49
+     55 172.67.141.87
+     46 192.168.150.2
+     46 108.159.120.84
+
+4. Top 5 Destination IP Addresses:
+    422 192.168.150.130
+     87 199.232.82.49
+     49 172.67.141.87
+     46 192.168.150.2
+     32 142.250.200.232
+
+----- End of Report -----
+`
